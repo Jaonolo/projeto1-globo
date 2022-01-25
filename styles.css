@@ -1,0 +1,191 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+a {
+  font-size: 19px;
+  text-decoration: none;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+  line-height: 25px;
+}
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.75em 0;
+}
+p {
+  line-height: 19px;
+  color: #2f3134;
+  font-size: 14px;
+}
+
+.size-limit {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.logo-holder {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-holder {
+  border-bottom: 1px solid #ebedef;
+  border-top: 1px solid #ebedef;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em 0;
+}
+
+content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+content img {
+  border-radius: 12px;
+}
+section {
+  width: 51%;
+}
+aside {
+  width: 46%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 3 main news, displayed just with text at the upper left corner of the website */
+.main {
+  border-bottom: 1px solid #ebedef;
+}
+.main h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  line-height: 67px;
+  margin-bottom: 0.45em;
+}
+.main h2 {
+  font-size: 18px;
+  color: #303134;
+  line-height: 1.75em;
+  margin-bottom: 1.1em;
+}
+
+/* smaller = smaller components right below the main text */
+.smaller {
+  display: flex;
+  justify-content: space-between;
+}
+.smaller div {
+  width: 193px;
+}
+.smaller img {
+  width: 100%;
+  height: 110px;
+}
+.with-image {
+  border-bottom: 1px solid #ebedef;
+  margin-top: 1.5em;
+}
+.with-image p {
+  margin-bottom: 2.35em;
+}
+.without-image {
+  margin-top: 1em;
+}
+
+/* larger = bigger components displayed at the right side of the website */
+.larger {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ebedef;
+}
+.larger div {
+  width: 240px;
+}
+.larger p {
+  margin-bottom: 3em;
+}
+.larger img {
+  height: 128px;
+  width: 100%;
+}
+.right {
+  width: 53%;
+  align-items: center;
+}
+.left {
+  width: 47%;
+  align-items: flex-end;
+}
+
+/* Here is everything related to color palette */
+h1 {
+  color: #2f3134;
+}
+.smaller h2 {
+  color: #c4170c;
+}
+.right h2 {
+  color: #16ae54;
+}
+.left h2 {
+  color: #ec8006;
+}
+.color1 {
+  color: #c3170c;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color2 {
+  color: #1e4b9b;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color3 {
+  color: #006766;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color4 {
+  color: #07aa47;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color5 {
+  color: #e3662b;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color6 {
+  color: #fb0735;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color7 {
+  color: #ff75bb;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color8 {
+  color: #ec7d00;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color9 {
+  color: #323333;
+  font-weight: bolder;
+  text-decoration: solid;
+}
+.color10 {
+  color: #a81d83;
+  font-weight: bolder;
+  text-decoration: solid;
+}
